@@ -46,10 +46,10 @@ function handleNoButtonHover() {
 }
 
 function handleYesBtn() {
-  img.src = "src/bubu-kiss-dudu-kiss-kiss.gif";
-  img.style.width = "350px";
   yesDiv.classList.remove("hidden");
+  clickMsg.classList.add("hidden");
   neutralDiv.classList.add("hidden");
   warningMsg.classList.add("hidden");
-  clickMsg.classList.add("hidden");
+  img.src = "src/bubu-kiss-dudu-kiss-kiss.gif";
+  img.style.width = "350px";
 }
