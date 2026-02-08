@@ -51,4 +51,5 @@ function handleYesBtn() {
   yesDiv.classList.remove("hidden");
   neutralDiv.classList.add("hidden");
   warningMsg.classList.add("hidden");
+  clickMsg.classList.add("hidden");
 }
