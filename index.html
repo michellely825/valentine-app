@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Will you be my Valentine?</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <audio id="bg-music" autoplay>
+      <source src="src/audio/The Marías - Heavy (Official Audio).mp3" />
+    </audio>
+    <div id="display-area">
+      <h2 id="click-msg">(click anywhere to play music)</h2>
+      <h2 id="warning-msg" class="hidden">be careful what you choose</h2>
+      <img
+        id="dudu-spinning-bubu-img"
+        src="src/dudu-spinning-bubu.gif"
+        alt=""
+      />
+      <div id="before-yes">
+        <h1>hi dudu, will you be my valentine?</h1>
+        <div id="btn-container">
+          <button id="yes-btn">yes</button>
+          <button id="no-btn">no</button>
+        </div>
+      </div>
+      <div id="after-yes" class="hidden">
+        <h1>yayyyyyy!</h1>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
