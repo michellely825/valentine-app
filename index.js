@@ -10,6 +10,7 @@ document.addEventListener("click", () => {
     });
     musicStarted = true; // prevent it from restarting
   }
+  clickMsg.style.display = "none";
 });
 
 const img = document.querySelector("img");
